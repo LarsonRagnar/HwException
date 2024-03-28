@@ -9,7 +9,7 @@ import java.time.format.DateTimeParseException;
 public class UserDataProcessor {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("Введите данные в формате: Фамилия Имя Отчество дата_рождения номер_телефона пол");
+            System.out.println("Введите данные в формате: Фамилия Имя Отчество дата_рождения номер_телефона пол: \n");
             String userInput = scanner.nextLine();
 
             String[] userData = userInput.split(" ");
